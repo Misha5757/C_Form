@@ -15,3 +15,12 @@ D:\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 D:\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
 D:\WPF\WpfApp1\WpfApp1\obj\Debug\Views\Pages\Home\login.g.cs
 D:\WPF\WpfApp1\WpfApp1\obj\Debug\Views\Pages\Home\login.baml
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+D:\WPF\WpfApp1\WpfApp1\obj\Debug\Views\Pages\Adm\CratUser.g.cs
+D:\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\WPF\WpfApp1\WpfApp1\obj\Debug\Views\Pages\Adm\CratUser.baml
+D:\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete

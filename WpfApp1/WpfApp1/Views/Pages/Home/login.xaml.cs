@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApp1.Connect;
+using WpfApp1.Views.Pages.Adm;
 
 namespace WpfApp1.Views.Pages.Home
 {
@@ -31,7 +32,7 @@ namespace WpfApp1.Views.Pages.Home
             try
             {
                 var currentUser = Connectclass.db.User.FirstOrDefault(item => item.Name == txbUsername.Text && item.Password == psbPassword.Password);
-                if (currentUser != null)
+                if (currentUser == null)
                     MessageBox.Show("Вы вели неверные данные авторизации! Пожалуйста, повторите попытку", "не верно!",
                         MessageBoxButton.OK, 
                         MessageBoxImage.Exclamation);
@@ -42,6 +43,7 @@ namespace WpfApp1.Views.Pages.Home
                     {
                         case "A":
                             MessageBox.Show("Привет Администратор " + currentUser.Name);
+                            NavigationService.Navigate(new CratUser());
                             break;
                         case "U":
                             MessageBox.Show("Привет Пользователь " + currentUser.Name);
